@@ -1,5 +1,7 @@
 package br.es.gob.br.notificationapp.services;
 
+import br.es.gob.br.notificationapp.request.EmailRequest;
+
 public interface EmailService {
-    void sendEmail(String to, String subject, String text);
+    void sendEmail(EmailRequest emailRequest);
 }
